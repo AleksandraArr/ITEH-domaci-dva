@@ -11,14 +11,16 @@
 <body>
     <div class="login-form">
         <div class="main-div card shadow-lg p-4">
-            <h2 class="text-center">Prijava </h2>
+            <h2 class="text-center">Prijava</h2>
             <form method="POST" action="#">
                 <div class="form-group">
-                    <label for="username">Korisničko ime</label>
+                    <!-- Korisnicko ime -> Korisnicko ime studenta -->
+                    <label for="username">Korisničko ime studenta</label>
                     <input type="text" name="username" class="form-control" required>
                 </div>
                 <div class="form-group">
-                    <label for="password">Lozinka</label>
+                    <!-- Lozinka ime -> Lozinka ime studenta -->
+                    <label for="password">Lozinka studenta</label>
                     <input type="password" name="password" class="form-control" required>
                 </div>
                 <button type="submit" class="btn btn-primary btn-block mt-4" name="submit">Prijavi se</button>
